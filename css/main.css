@@ -27,7 +27,7 @@
 }
 
 .navigation {
-  margin-left: 300px;
+  margin-left: 400px;
 }
 
 .navigation ul a {
@@ -45,7 +45,6 @@
 
 .getstarted {
   display: flex;
-  background-color: #213b52;
   margin-top: 68px;
 }
 
@@ -84,7 +83,7 @@
 
 .getstarted2 img {
   width: 555px;
-  margin: -55px 180px 0px 0px;
+  margin: -55px 180px -4px 0px;
 }
 
 .cmpylogo {
@@ -104,6 +103,7 @@
   margin-top: 54px;
   display: flex;
   padding: 40px 0px;
+  background-image: linear-gradient(#ededf2, #fff);
 }
 
 .clienttalk1 {
@@ -137,11 +137,11 @@
 
 .talk13 h2 {
   font-size: 26px;
-  margin: -5px 0px 0px 0px;
+    margin: -17px 0px -12px 0px;
 }
 .talk13 p {
   font-size: 18px;
-  margin: 17px 76px 0px -1px;
+  margin: 17px 76px 0px 28px;
 }
 .talk21 {
   margin-left: 33px;
@@ -152,7 +152,16 @@
 }
 .talk14 p {
   font-size: 18px;
-  margin: 17px 26px 0px 0px;
+  margin: 17px 26px 0px 28px;
+}
+.talk13 h2 i,
+.talk14 h2 i{
+  color: #fdc134;
+  font-size: 40px;
+    margin: 0 17px 0 -28px;
+}
+.services123{
+  background-image: linear-gradient(#ededf2, #fff);
 }
 .services {
   margin-top: 82px;
@@ -160,6 +169,15 @@
 .services h3 {
   text-align: center;
   font-size: 36px;
+  padding-top: 70px;
+}
+.services h4{
+  border-bottom: 1px solid #ccc;
+    margin: 25px 682px -13px 682px;
+}
+.services h5{
+  border-bottom: 4px solid #fdc134;
+    margin: 11px 726px -13px 726px;
 }
 .services p {
   text-align: center;
@@ -257,13 +275,21 @@
   font-size: 20px;
 }
 .features {
-  margin-top: 233px;
+  margin-top: 240px;
+  background-image: linear-gradient(#ededf2, #fff);
 }
-.features1 {
+.features1 h4{
+  border-bottom: 1px solid #ccc;
+    margin: 25px 682px -13px 682px;
+}
+.features1 h5{
+  border-bottom: 4px solid #fdc134;
+    margin: 10px 726px -13px 726px;
 }
 .features1 h1 {
   text-align: center;
   font-size: 35px;
+  padding-top: 70px;
 }
 .features1 p {
   text-align: center;
@@ -284,6 +310,7 @@
 .featuretext h1 {
   font-size: 32px;
   margin-top: -5px;
+  padding-top: 70px;
 }
 .featuretext p {
   font-size: 22px;
@@ -364,10 +391,22 @@
   width: 515px;
   margin: -52px 34px 0px 0px;
 }
+.portfolio{
+  background-image: linear-gradient(#ededf2, #fff);
+}
 .portfolio-1 h1 {
   text-align: center;
   font-size: 30px;
   margin-top: 120px;
+  padding-top: 70px;
+}
+.portfolio-1 h4{
+  border-bottom: 1px solid #ccc;
+    margin: 25px 682px -13px 682px;
+}
+.portfolio-1 h5{
+  border-bottom: 4px solid #fdc134;
+    margin: 10px 726px -13px 726px;
 }
 .portfolio-1 p {
   text-align: center;
@@ -400,12 +439,23 @@
 }
 .team {
   margin-top: 150px;
+  background-image: linear-gradient(#ededf2, #fff);
 }
 .team1 {
 }
 .team1 h1 {
   text-align: center;
   font-size: 30px;
+  margin-top: -66px;
+    padding-top: 63px;
+}
+.team1 h4{
+  border-bottom: 1px solid #ccc;
+    margin: 25px 682px -13px 682px;
+}
+.team1 h5{
+  border-bottom: 4px solid #fdc134;
+    margin: 10px 726px -13px 726px;
 }
 .team1 p {
   text-align: center;
@@ -440,13 +490,23 @@
 }
 .pricing {
   text-align: center;
-  margin: 148px 34px 0 0px;
+  margin: 148px 34px 70px 0px;
 }
-.pricing1 {
+.pricing{
+  background-image: linear-gradient(#ededf2, #fff);
 }
 .pricing1 h1 {
   font-size: 30px;
-  margin: -3px 0px 45px 6px;
+  margin: -66px 0px 45px 6px;
+    padding-top: 63px;
+}
+.pricing1 h4{
+  border-bottom: 1px solid #ccc;
+    margin: -23px 682px 37px 682px;
+}
+.pricing1 h5{
+  border-bottom: 4px solid #fdc134;
+  margin: -42px 715px 26px 715px;
 }
 .pricing1 p {
 }
@@ -484,7 +544,7 @@
   background-color: #fff;
   margin: 46px 1px 0px -24px;
   padding: 41px 13px 0px 31px;
-  border: 1px solid yellow;
+  border: 1px solid #fdc134;
 }
 .pc-2 h6 {
   font-size: 30px;
@@ -532,4 +592,376 @@
 }
 .pc-3 ul li {
   list-style: none;
+}
+.faq {
+  background-image: linear-gradient(#ededf2, #fff);
+  margin-bottom: 90px;
+}
+.faq-1{
+  text-align: center;
+  font-size: 32px;
+  padding-top: 70px;
+  margin: 65px 0px 0px -10px;
+  letter-spacing: 1px;
+}
+.faq-1 h4{
+  border-bottom: 1px solid #ccc;
+    margin: 25px 682px -13px 682px;
+}
+.faq-1 h5{
+  border-bottom: 4px solid #fdc134;
+    margin: 10px 726px -13px 726px;
+}
+.faq-1 p {
+  text-align: center;
+  padding: 0 120px;
+  font-size: 21px;
+  margin-top: 55px;
+  line-height: 24px;
+}
+.faq-text-1 {
+  display: flex;
+  margin: 83px 120px 0px 140px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 40px;
+}
+.faq-text-1 i {
+  font-size: 20px;
+}
+.faq-text-1 h4 {
+  margin: 0px 0px 0px 9px;
+  font-size: 21px;
+  width: 657px;
+}
+.faq-text-1 p {
+  width: 710px;
+  margin: -3px 0 1px -172px;
+  font-size: 20px;
+  line-height: 24px;
+}
+.faq-text-2 {
+  display: flex;
+  margin: 53px 120px 0px 140px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 40px;
+}
+.faq-text-2 i {
+  font-size: 20px;
+}
+.faq-text-2 h4 {
+  margin: -2px 210px 0px 10px;
+  font-size: 21px;
+  width: 916px;
+  line-height: 25px;
+}
+.faq-text-2 p {
+  margin: -2px 97px 1px -114px;
+  font-size: 20px;
+  line-height: 24px;
+}
+.faq-text-3 {
+  display: flex;
+  margin: 47px 120px 0px 140px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 40px;
+}
+.faq-text-3 i {
+  font-size: 20px;
+}
+.faq-text-3 h4 {
+  margin: -2px 210px 0px 10px;
+  font-size: 21px;
+  width: 974px;
+  line-height: 25px;
+}
+.faq-text-3 p {
+  margin: -2px 97px 1px -114px;
+  font-size: 19px;
+  line-height: 24px;
+}
+.faq-text-4 {
+  display: flex;
+  margin: 47px 120px 0px 140px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 40px;
+}
+.faq-text-4 i {
+  font-size: 20px;
+}
+.faq-text-4 h4 {
+  margin: -2px 210px 0px 10px;
+  font-size: 21px;
+  width: 1342px;
+  line-height: 28px;
+}
+.faq-text-4 p {
+  margin: -1px 188px 1px -183px;
+  font-size: 20px;
+  line-height: 24px;
+}
+.faq-text-5 {
+  display: flex;
+  margin: 47px 120px 0px 140px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 40px;
+}
+.faq-text-5 i {
+  font-size: 20px;
+}
+.faq-text-5 h4 {
+  margin: -2px 210px 0px 10px;
+  font-size: 21px;
+  width: 1115px;
+  line-height: 28px;
+}
+.faq-text-5 p {
+  margin: -1px 188px 1px -138px;
+  font-size: 19px;
+  line-height: 24px;
+}
+.contact {
+  background-color: #ededf2;
+  padding: 40px 120px 0px 120px;
+}
+.ct-1 {
+}
+.ct-1 h4{
+  border-bottom: 1px solid #ccc;
+  margin: 19px 570px 9px;
+}
+.ct-1 h5{
+  border-bottom: 4px solid #fdc134;
+    margin: -12px 601px 0px;
+}
+.ct-1 h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 28px;
+}
+.ct-1 p {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 51px;
+  line-height: 25px;
+}
+.flexfrom {
+  display: flex;
+  margin: 35px 0px 0px 10px;
+}
+.address {
+  background-color: #fff;
+  padding: 30px 0 13px 38px;
+  justify-content: center;
+  text-align: center;
+  margin: -7px 5px 38px 52px;
+  line-height: 17px;
+}
+.address i {
+  font-size: 40px;
+  margin-left: -36px;
+  color: #fdc134;
+}
+.address h3 {
+  font-size: 25px;
+  margin-top: 19px;
+  margin-left: -31px;
+  color: #3a923a;
+}
+.address p {
+  margin: 16px 45px 18px -11px;
+}
+.form {
+  margin: -5px 0px 0px 25px;
+}
+.form form {
+  background-color: #fff;
+  padding: 1px 0px 32px 0px;
+}
+.phonemail {
+  display: flex;
+  margin-top: 28px;
+}
+.user1 {
+  margin: 0px 0px 0px 28px;
+}
+.user1 label {
+}
+.user1 input::placeholder {
+  margin-left: 10px;
+}
+.user1 input {
+  padding: 8px 0 8px 13px;
+  margin: 0 28px 0 0;
+  font-size: 18px;
+  width: 227px;
+}
+.mail1 {
+}
+.mail1 label {
+}
+.mail1 input {
+  padding: 8px 0 8px 13px;
+  margin: 0 28px 0 0;
+  font-size: 18px;
+  width: 227px;
+}
+.subject {
+}
+.subject label {
+}
+.subject input {
+  padding: 8px 0 10px 16px;
+  margin: 15px -24px 0 29px;
+  font-size: 18px;
+  width: 495px;
+}
+.msg1 {
+}
+.msg1 label {
+}
+.msg1 p {
+  margin: 18px 0px 0px 0px;
+}
+.msg1 textarea {
+  width: 508px;
+  height: 123px;
+  margin-left: 30px;
+}
+.mailcall {
+  display: flex;
+}
+.mailcall1 {
+  text-align: center;
+  background-color: #fff;
+  padding: 38px 50px 22px 50px;
+  line-height: 15px;
+  margin: -13px 0px 72px 52px;
+}
+.mailcall1 i {
+  font-size: 30px;
+  color: #fdc134;
+}
+.mailcall1 h3 {
+  font-size: 23px;
+  margin-top: 27px;
+}
+.mailcall1 p {
+  margin-top: 15px;
+  font-size: 18px;
+}
+.callmail1 {
+  text-align: center;
+  background-color: #fff;
+  padding: 32px 62px 22px 59px;
+  line-height: 15px;
+  margin: -13px 0px 73px 21px;
+}
+.callmail1 i {
+  font-size: 30px;
+  color: #fdc134;
+}
+.callmail1 h3 {
+  font-size: 23px;
+  margin-top: 27px;
+}
+.callmail1 p {
+  margin-top: 15px;
+  font-size: 18px;
+}
+.submit {
+  text-align: center;
+  margin-top: 12px;
+}
+.submit button {
+  font-size: 16px;
+  padding: 11px 23px;
+  color: white;
+  background-color: #fdc134;
+  border: 1px solid #fdc134;
+}
+.top-footer {
+  margin-top: -13px;
+}
+.footer {
+  position: absolute;
+  margin: -443px 0px 0px 400px;
+}
+.t-f-1 img {
+  height: 515px;
+  width: 100%;
+}
+.t-f-text {
+  text-align: center;
+  justify-content: center;
+}
+.t-f-text h1 {
+  font-size: 43px;
+  margin: 5px 0px 0px -7px;
+  color: #fff;
+}
+.t-f-text p {
+  padding: 34px 11px;
+  font-size: 16px;
+  width: 679px;
+  color: #fff;
+}
+
+.tf-mail {
+  display: flex;
+}
+.tf-mail label {
+}
+.tf-mail input {
+  font-size: 16px;
+  margin: 3px 0px 0px 30px;
+  padding: 10px 0px 10px 16px;
+  width: 620px;
+  border-radius: 20px;
+}
+.tf-mail button {
+  border-radius: 30px;
+  margin: 3px 4px 0px -110px;
+  font-size: 16px;
+  padding: 0px 20px 0px 18px;
+  color: #fff;
+  background-color: #fdc134;
+  border: 1px solid #fdc134;
+}
+.tf-icon {
+  text-align: center;
+  margin: 41px 0px 0px 1px;
+  word-spacing: 16px;
+}
+.tf-icon a {
+  background-color: #f0f8ff2e;
+  padding: 11px;
+  border-radius: 49px;
+  text-decoration: none;
+}
+.tf-icon a i {
+  color: #fff;
+}
+.bottom-footer {
+  position: relative;
+  display: flex;
+  margin: -62px 94px 0px 102px;
+  justify-content: space-between;
+}
+.bottom-footer h4 {
+  color: #fff;
+}
+.bottom-footer h4 span {
+  color: #fdc134;
+}
+.uparrow {
+  text-align: end;
+  margin: -9px 16px 0px 0;
+}
+.uparrow a {
+}
+.uparrow a i {
+  padding: 12px;
+  background-color: #f0f8ff2e;
+  border-radius: 40px;
+  color: #fff;
 }
