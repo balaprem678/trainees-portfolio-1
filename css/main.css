@@ -28,13 +28,20 @@
 
 .navigation {
   margin-left: 400px;
+  display: flex;
 }
-
-.navigation ul a {
+.navigation ul{
+  display: flex;
+}
+.navigation ul li{
+  list-style: none;
+}
+.navigation ul li a {
   text-decoration: none;
   color: #fff;
   margin-right: 12px;
   font-size: 20px;
+  
 }
 
 .navigation ul a span {
@@ -171,11 +178,11 @@
   font-size: 36px;
   padding-top: 70px;
 }
-.services h4{
+.services .h4{
   border-bottom: 1px solid #ccc;
     margin: 25px 682px -13px 682px;
 }
-.services h5{
+.services .h5{
   border-bottom: 4px solid #fdc134;
     margin: 11px 726px -13px 726px;
 }
@@ -278,11 +285,11 @@
   margin-top: 240px;
   background-image: linear-gradient(#ededf2, #fff);
 }
-.features1 h4{
+.features1 .h4{
   border-bottom: 1px solid #ccc;
     margin: 25px 682px -13px 682px;
 }
-.features1 h5{
+.features1 .h5{
   border-bottom: 4px solid #fdc134;
     margin: 10px 726px -13px 726px;
 }
@@ -400,11 +407,11 @@
   margin-top: 120px;
   padding-top: 70px;
 }
-.portfolio-1 h4{
+.portfolio-1 .h4{
   border-bottom: 1px solid #ccc;
     margin: 25px 682px -13px 682px;
 }
-.portfolio-1 h5{
+.portfolio-1 .h5{
   border-bottom: 4px solid #fdc134;
     margin: 10px 726px -13px 726px;
 }
@@ -449,11 +456,11 @@
   margin-top: -66px;
     padding-top: 63px;
 }
-.team1 h4{
+.team1 .h4{
   border-bottom: 1px solid #ccc;
     margin: 25px 682px -13px 682px;
 }
-.team1 h5{
+.team1 .h5{
   border-bottom: 4px solid #fdc134;
     margin: 10px 726px -13px 726px;
 }
@@ -482,11 +489,14 @@
 }
 .t-img1 ul {
   margin: 22px 0px 0px 68px;
+  display: flex;
+  list-style: none;
 }
 .t-img1 ul a {
   text-decoration: none;
   color: #53a9cd;
   text-align: center;
+  margin: 0px 3px;
 }
 .pricing {
   text-align: center;
@@ -494,17 +504,18 @@
 }
 .pricing{
   background-image: linear-gradient(#ededf2, #fff);
+  padding-bottom: 60px;
 }
 .pricing1 h1 {
   font-size: 30px;
   margin: -66px 0px 45px 6px;
     padding-top: 63px;
 }
-.pricing1 h4{
+.pricing1 .h4{
   border-bottom: 1px solid #ccc;
     margin: -23px 682px 37px 682px;
 }
-.pricing1 h5{
+.pricing1 .h5{
   border-bottom: 4px solid #fdc134;
   margin: -42px 715px 26px 715px;
 }
@@ -514,10 +525,21 @@
   display: flex;
   justify-content: center;
 }
+.featured{
+  font-size: 14px;
+    border-radius: 40px;
+    margin: -59px 0px 45px -17px;
+}
+.featured h3{
+  background-color: #fdc134;
+  margin: 0px 100px 0px 100px;
+    border-radius: 30px;
+}
 .pc-1 {
   background-color: #fff;
-  margin: 74px 24px 0px -152px;
+  margin: 74px 0px 0px -152px;
   padding: 43px 35px;
+  box-shadow: 35px 0px 44px 2px #564c4c0f;
 }
 .pc-1 h6 {
   font-size: 30px;
@@ -530,21 +552,38 @@
   margin: 3px 0px 0px 5px;
 }
 .pc-1 ul {
-  margin: 24px 0px 0px -25px;
-  line-height: 33px;
-  padding: 0 74px 0px 48px;
+  margin: 24px 47px 1px -16px;
+    line-height: 33px;
+    text-align: initial;
+    padding: 0 74px 0px 0;
 }
-.pc-1 p {
+.pc-1 ul li i,
+.pc-2 ul li i,
+.pc-3 ul li i{
+  color: #fdc134;
+  margin: 0px 20px 0px -6px;
+}
+.pc-1 ul li:nth-child(4),
+.pc-1 ul li:nth-child(5){
   text-decoration: line-through;
 }
 .pc-1 ul li {
   list-style: none;
 }
+.pc-1 button{
+  margin: 27px 0px 0px -38px;
+    font-size: 15px;
+    padding: 7px 28px;
+    border-radius: 48px;
+    color: #fff;
+    background-color: #213b52;
+}
 .pc-2 {
   background-color: #fff;
-  margin: 46px 1px 0px -24px;
-  padding: 41px 13px 0px 31px;
-  border: 1px solid #fdc134;
+    margin: 46px 2px -68px -3px;
+    padding: 41px 15px 0 41px;
+    line-height: 34px;
+    border: 1px solid #fdc134;
 }
 .pc-2 h6 {
   font-size: 30px;
@@ -558,6 +597,7 @@
 .pc-2 ul {
   margin-top: 19px;
   line-height: 33px;
+  text-align: initial;
 }
 .pc-2 p {
   text-decoration: line-through;
@@ -570,6 +610,7 @@
   background-color: #fff;
   margin: 74px -157px 0px 0px;
   padding: 43px 35px;
+  box-shadow: 35px 0px 44px 2px #564c4c0f;
 }
 .pc-3 h6 {
   font-size: 30px;
@@ -585,6 +626,7 @@
 .pc-3 ul {
   margin: 24px 0px 0px -25px;
   line-height: 33px;
+  text-align: initial;
   padding: 0 74px 0px 48px;
 }
 .pc-3 p {
@@ -604,11 +646,11 @@
   margin: 65px 0px 0px -10px;
   letter-spacing: 1px;
 }
-.faq-1 h4{
+.faq-1 .h4{
   border-bottom: 1px solid #ccc;
     margin: 25px 682px -13px 682px;
 }
-.faq-1 h5{
+.faq-1 .h5{
   border-bottom: 4px solid #fdc134;
     margin: 10px 726px -13px 726px;
 }
@@ -725,11 +767,11 @@
 }
 .ct-1 {
 }
-.ct-1 h4{
+.ct-1 .h4{
   border-bottom: 1px solid #ccc;
   margin: 19px 570px 9px;
 }
-.ct-1 h5{
+.ct-1 .h5{
   border-bottom: 4px solid #fdc134;
     margin: -12px 601px 0px;
 }
