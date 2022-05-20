@@ -5,9 +5,8 @@
 .first {
   background-color: #213b52;
   font-size: 27px;
-  margin: -56px 0 0 0px;
   display: block;
-  padding-top: 88px;
+  padding-top: 45px;
 }
 
 .navi {
@@ -39,7 +38,7 @@
 .navigation ul li a {
   text-decoration: none;
   color: #fff;
-  margin-right: 12px;
+  margin-right: 25px;
   font-size: 20px;
   
 }
@@ -56,14 +55,14 @@
 }
 
 .getstarted1 {
-  margin: 200px 0 0px 122px;
+  margin-left:80px;
   display: inline-block;
 }
 
 .getstarted1 h1 {
   font-size: 60px;
   line-height: 57px;
-  margin-top: -60px;
+  margin-top: 100px;
   color: #fff;
 }
 
@@ -90,7 +89,6 @@
 
 .getstarted2 img {
   width: 555px;
-  margin: -55px 180px -4px 0px;
 }
 
 .cmpylogo {
@@ -144,11 +142,11 @@
 
 .talk13 h2 {
   font-size: 26px;
-    margin: -17px 0px -12px 0px;
+   
 }
 .talk13 p {
   font-size: 18px;
-  margin: 17px 76px 0px 28px;
+  margin: 17px 0px 0px 60px;
 }
 .talk21 {
   margin-left: 33px;
@@ -159,13 +157,13 @@
 }
 .talk14 p {
   font-size: 18px;
-  margin: 17px 26px 0px 28px;
+  margin: 17px 0px 0px 60px;
 }
 .talk13 h2 i,
 .talk14 h2 i{
   color: #fdc134;
   font-size: 40px;
-    margin: 0 17px 0 -28px;
+    margin-right:17px;
 }
 .services123{
   background-image: linear-gradient(#ededf2, #fff);
@@ -196,7 +194,7 @@
 }
 .card {
   position: relative;
-  margin: 0px 0px 0px 160px;
+  margin-left:160px;
 }
 .cardimage img {
   width: 485px;
@@ -218,7 +216,7 @@
   font-size: 20px;
 }
 .cardimage1 img {
-  margin: 0px 0px 0px 80px;
+  margin-left:80px;
   width: 485px;
   position: relative;
 }
@@ -284,6 +282,7 @@
 .features {
   margin-top: 240px;
   background-image: linear-gradient(#ededf2, #fff);
+  padding: 0px 40px;
 }
 .features1 .h4{
   border-bottom: 1px solid #ccc;
@@ -409,7 +408,7 @@
 }
 .portfolio-1 .h4{
   border-bottom: 1px solid #ccc;
-    margin: 25px 682px -13px 682px;
+    margin: 24px 682px -13px 682px;
 }
 .portfolio-1 .h5{
   border-bottom: 4px solid #fdc134;
@@ -417,7 +416,7 @@
 }
 .portfolio-1 p {
   text-align: center;
-  margin: 50px 55px 0px 55px;
+  margin: 50px 100px 0px 100px;
 }
 .portfolio-link {
   display: flex;
@@ -513,13 +512,14 @@
 }
 .pricing1 .h4{
   border-bottom: 1px solid #ccc;
-    margin: -23px 682px 37px 682px;
+    margin: 0px 682px 37px 682px;
 }
 .pricing1 .h5{
   border-bottom: 4px solid #fdc134;
-  margin: -42px 715px 26px 715px;
+  margin: -40px 715px 26px 715px;
 }
 .pricing1 p {
+  margin: 0px 90px;
 }
 .pricing12 {
   display: flex;
@@ -537,7 +537,7 @@
 }
 .pc-1 {
   background-color: #fff;
-  margin: 74px 0px 0px -152px;
+  margin: 80px 0 0px 80px;
   padding: 43px 35px;
   box-shadow: 35px 0px 44px 2px #564c4c0f;
 }
@@ -552,7 +552,7 @@
   margin: 3px 0px 0px 5px;
 }
 .pc-1 ul {
-  margin: 24px 47px 1px -16px;
+  margin: 24px 47px 1px 16px;
     line-height: 33px;
     text-align: initial;
     padding: 0 74px 0px 0;
@@ -571,7 +571,7 @@
   list-style: none;
 }
 .pc-1 button{
-  margin: 27px 0px 0px -38px;
+  margin-top: 27px;
     font-size: 15px;
     padding: 7px 28px;
     border-radius: 48px;
@@ -590,7 +590,7 @@
 }
 .pc-2 h5 {
   font-size: 46px;
-  margin: 22px 0px 2px -21px;
+  margin: 22px;
 }
 .pc-2 h4 {
 }
@@ -606,19 +606,27 @@
   list-style: none;
   padding: 0 119px 0px 0;
 }
+.pc-2 button{
+  margin-top: 40px;
+    font-size: 15px;
+    padding: 12px 34px;
+    border-radius: 48px;
+    color: #fff;
+    background-color: #fdc134;
+    border: 1px solid #fdc134;
+}
 .pc-3 {
   background-color: #fff;
-  margin: 74px -157px 0px 0px;
+  margin-top: 74px;
   padding: 43px 35px;
   box-shadow: 35px 0px 44px 2px #564c4c0f;
 }
 .pc-3 h6 {
   font-size: 30px;
-  margin-left: -22px;
 }
 .pc-3 h5 {
   font-size: 44px;
-  margin: 21px 0px 0px -12px;
+  margin: 21px;
 }
 .pc-3 h4 {
   margin: 3px 0px 0px -10px;
@@ -634,6 +642,14 @@
 }
 .pc-3 ul li {
   list-style: none;
+}
+.pc-3 button{
+  margin-top: 27px;
+    font-size: 15px;
+    padding: 7px 28px;
+    border-radius: 48px;
+    color: #fff;
+    background-color: #213b52;
 }
 .faq {
   background-image: linear-gradient(#ededf2, #fff);
@@ -691,13 +707,12 @@
   font-size: 20px;
 }
 .faq-text-2 h4 {
-  margin: -2px 210px 0px 10px;
+  margin: 0px 80px 0px 10px;
   font-size: 21px;
-  width: 916px;
+  width: 1000px;
   line-height: 25px;
 }
 .faq-text-2 p {
-  margin: -2px 97px 1px -114px;
   font-size: 20px;
   line-height: 24px;
 }
@@ -711,9 +726,9 @@
   font-size: 20px;
 }
 .faq-text-3 h4 {
-  margin: -2px 210px 0px 10px;
+  margin: 0px 270px 0px 10px;
   font-size: 21px;
-  width: 974px;
+  width: 1000px;
   line-height: 25px;
 }
 .faq-text-3 p {
@@ -731,13 +746,13 @@
   font-size: 20px;
 }
 .faq-text-4 h4 {
-  margin: -2px 210px 0px 10px;
+  margin: 0px 100px 0px 10px;
   font-size: 21px;
-  width: 1342px;
+  width: 1000px;
   line-height: 28px;
 }
 .faq-text-4 p {
-  margin: -1px 188px 1px -183px;
+  
   font-size: 20px;
   line-height: 24px;
 }
@@ -751,13 +766,12 @@
   font-size: 20px;
 }
 .faq-text-5 h4 {
-  margin: -2px 210px 0px 10px;
+  margin: 0px 90px 0px 10px;
   font-size: 21px;
-  width: 1115px;
+  width: 1000px;
   line-height: 28px;
 }
 .faq-text-5 p {
-  margin: -1px 188px 1px -138px;
   font-size: 19px;
   line-height: 24px;
 }
@@ -828,9 +842,6 @@
 }
 .user1 label {
 }
-.user1 input::placeholder {
-  margin-left: 10px;
-}
 .user1 input {
   padding: 8px 0 8px 13px;
   margin: 0 28px 0 0;
@@ -841,7 +852,7 @@
 }
 .mail1 label {
 }
-.mail1 input {
+.mail-to-1 input {
   padding: 8px 0 8px 13px;
   margin: 0 28px 0 0;
   font-size: 18px;
@@ -972,12 +983,13 @@
 .tf-icon {
   text-align: center;
   margin: 41px 0px 0px 1px;
-  word-spacing: 16px;
+  word-spacing: -5px;
 }
 .tf-icon a {
   background-color: #f0f8ff2e;
   padding: 11px;
   border-radius: 49px;
+  margin: 0px 10px;
   text-decoration: none;
 }
 .tf-icon a i {
